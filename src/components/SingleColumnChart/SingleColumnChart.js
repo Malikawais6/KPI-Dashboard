@@ -14,6 +14,7 @@ const SingleColumnChart = () => {
       horizontalGridLines={false}
       verticalGridLines={false}
       title={<span>Brand Engagement Overview</span>}
+      legends={false}
     />
   );
 };
