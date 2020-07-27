@@ -1,0 +1,21 @@
+.header-container {
+  display: grid;
+  grid-template-columns: 170px 70px 70px 1fr;
+  height: 40px;
+  background: #659cef;
+  padding: 20px;
+  font-family: sans-serif;
+  line-height: 34px;
+  padding-bottom: 10px;
+  color: #ffff;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.toggle-theme {
+  text-align: right;
+}
+.toggle-theme label > span:last-of-type {
+  color: #ffff;
+}
